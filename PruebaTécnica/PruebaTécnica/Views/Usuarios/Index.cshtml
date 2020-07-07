@@ -30,35 +30,44 @@
         <th>
             @Html.DisplayNameFor(model => model.Correo)
         </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Contraseña)
+        </th>
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nombre)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Apellido1)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Apellido2)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Teléfono)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DIrección)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Correo)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-        </td>
-    </tr>
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Apellido1)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Apellido2)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Teléfono)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.DIrección)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Correo)
+    </td>
+
+    <td>
+       *****
+    </td>
+
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+        @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+    </td>
+</tr>
 }
 
 </table>

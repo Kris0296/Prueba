@@ -30,6 +30,7 @@
     <Property Name="DIrección" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="USERROL" Relationship="Self.FK_USERROL_USUARIOS" FromRole="USUARIOS" ToRole="USERROL" />
+    <Property Name="Contraseña" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
   </EntityType>
   <Association Name="FK_USERROL_ROLES">
     <End Role="ROLES" Type="Self.ROLES" Multiplicity="1" />

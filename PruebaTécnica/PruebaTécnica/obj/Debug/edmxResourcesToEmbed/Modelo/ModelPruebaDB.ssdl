@@ -26,6 +26,7 @@
     <Property Name="Teléfono" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="DIrección" Type="varchar" MaxLength="300" Nullable="false" />
     <Property Name="Correo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Contraseña" Type="varchar" MaxLength="100" Nullable="false" />
   </EntityType>
   <Association Name="FK_USERROL_ROLES">
     <End Role="ROLES" Type="Self.ROLES" Multiplicity="1" />

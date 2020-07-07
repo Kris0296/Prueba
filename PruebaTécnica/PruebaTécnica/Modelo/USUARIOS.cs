@@ -27,6 +27,7 @@ namespace PruebaTécnica.Modelo
         public string Teléfono { get; set; }
         public string DIrección { get; set; }
         public string Correo { get; set; }
+        public string Contraseña { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<USERROL> USERROL { get; set; }

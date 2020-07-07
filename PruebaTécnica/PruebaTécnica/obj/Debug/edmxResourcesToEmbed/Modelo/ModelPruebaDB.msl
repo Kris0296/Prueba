@@ -21,6 +21,7 @@
     <EntitySetMapping Name="USUARIOS">
       <EntityTypeMapping TypeName="DBPruebaModel.USUARIOS">
         <MappingFragment StoreEntitySet="USUARIOS">
+          <ScalarProperty Name="Contraseña" ColumnName="Contraseña" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Nombre" ColumnName="Nombre" />
           <ScalarProperty Name="Apellido1" ColumnName="Apellido1" />

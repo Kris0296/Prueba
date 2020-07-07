@@ -46,7 +46,7 @@ namespace PruebaTécnica.Controllers
         // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Nombre,Apellido1,Apellido2,Teléfono,DIrección,Correo")] USUARIOS uSUARIOS)
+        public ActionResult Create( USUARIOS uSUARIOS)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace PruebaTécnica.Controllers
         // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Nombre,Apellido1,Apellido2,Teléfono,DIrección,Correo")] USUARIOS uSUARIOS)
+        public ActionResult Edit(USUARIOS uSUARIOS)
         {
             if (ModelState.IsValid)
             {
