@@ -177,3 +177,4 @@ C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\obj\Debug\PruebaTéc
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\obj\Debug\PruebaTécnica.csproj.CopyComplete
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\obj\Debug\PruebaTécnica.dll
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\obj\Debug\PruebaTécnica.pdb
+C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\obj\Debug\PruebaTécnica.csprojAssemblyReference.cache
