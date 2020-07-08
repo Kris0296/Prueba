@@ -88,7 +88,6 @@ C:\Users\Adm\Desktop\PruebaTécnica\PruebaTécnica\obj\Debug\PruebaTécnica.cspr
 C:\Users\Adm\Desktop\PruebaTécnica\PruebaTécnica\obj\Debug\PruebaTécnica.dll
 C:\Users\Adm\Desktop\PruebaTécnica\PruebaTécnica\obj\Debug\PruebaTécnica.pdb
 C:\Users\Adm\Desktop\PruebaTécnica\PruebaTécnica\obj\Debug\PruebaTécnica.csprojAssemblyReference.cache
-C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\PruebaTécnica.dll.config
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\PruebaTécnica.dll
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\PruebaTécnica.pdb
@@ -103,6 +102,7 @@ C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\roslyn\Microsoft
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\Users\Adm\Documents\Prueba\PruebaTécnica\PruebaTécnica\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
